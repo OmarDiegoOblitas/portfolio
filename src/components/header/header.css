@@ -28,6 +28,9 @@ header {
   left: 0;
   bottom: 3rem;
 }
+.header_socials > a{
+  font-size: 24px;
+}
 
 .header_socials::after {
   content: "";
@@ -55,8 +58,8 @@ header {
   right: -2.3rem;
   bottom: 5rem;
   transform: rotate(90deg);
-  font-size: 0.9rem;
   font-weight: 300;
+  font-size: 22px;
 }
 
 /* ========== Media Queries tablet =========== */
