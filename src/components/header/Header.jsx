@@ -3,6 +3,7 @@ import "./header.css";
 import CTA from "./CTA";
 import ME from "../../assets/avatar.png";
 import HeaderSocials from "./HeaderSocials";
+import {Link} from "react-scroll";
 
 const Header = () => {
   return (
@@ -16,9 +17,7 @@ const Header = () => {
         <div className="me">
           <img src={ME} alt="" />
         </div>
-        <a href="#contac" className="scroll_down">
-          Scroll Down
-        </a>
+        <Link to="contact" className="scroll_down" smooth={true} duration={500}>Scroll Down</Link>
       </div>
     </header>
   );

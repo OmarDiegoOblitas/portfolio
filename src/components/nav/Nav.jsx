@@ -6,46 +6,58 @@ import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
+import {Link} from "react-scroll";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
-      <a
-        href="#"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
-      >
-        <AiOutlineHome />
-      </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
-      >
-        <AiOutlineUser />
-      </a>
-      <a
-        href="#experience"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
-      >
-        <BiBook />
-      </a>
-      <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
-      >
-        <RiServiceLine />
-      </a>
-      <a
-        href="#contact"
-        onClick={() => setActiveNav("#contact")}
-        className={activeNav === "#contact" ? "active" : ""}
-      >
-        <BiMessageSquareDetail />
-      </a>
+        <Link
+            to="root"
+            smooth={true}
+            duration={500}
+            onClick={() => setActiveNav("#")}
+            className={activeNav === "#" ? "active my-link" : "my-link"}
+        >
+            <AiOutlineHome />
+        </Link>
+        <Link
+            to="about"
+            smooth={true}
+            duration={500}
+            onClick={() => setActiveNav("#about")}
+            className={activeNav === "#about" ? "active my-link" : "my-link"}
+        >
+            <AiOutlineUser />
+        </Link>
+
+        <Link
+            to="experience"
+            smooth={true}
+            duration={500}
+            onClick={() => setActiveNav("#experience")}
+            className={activeNav === "#experience" ? "active my-link" : "my-link"}
+        >
+            <BiBook />
+        </Link>
+        <Link
+            to="services"
+            smooth={true}
+            duration={500}
+            onClick={() => setActiveNav("#services")}
+            className={activeNav === "#services" ? "active my-link" : "my-link"}
+        >
+            <RiServiceLine />
+        </Link>
+        <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            onClick={() => setActiveNav("#contact")}
+            className={activeNav === "#contact" ? "active my-link" : "my-link"}
+        >
+            <BiMessageSquareDetail />
+        </Link>
     </nav>
   );
 };

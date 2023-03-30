@@ -4,6 +4,7 @@ import ME from "../../assets/avatar.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import {Link} from "react-scroll";
 
 const About = () => {
   return (
@@ -41,9 +42,7 @@ const About = () => {
             and I stand out for my ability to work in a team and solve problems effectively.
             If you are interested in learning more about my work, do not hesitate to contact me. I am at your disposal!"
           </p>
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
+          <Link to="contact" className="btn btn-primary" smooth={true} duration={500}>Let's Talk</Link>
         </div>
       </div>
     </section>

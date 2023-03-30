@@ -7,27 +7,45 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from"react-icons/fa"
 
 const HeaderSocials = () => {
+    const social = [
+        {
+            id:1,
+            url:"https://www.linkedin.com/in/omar-diego-oblitas-9380b71aa/",
+            icon:<BsLinkedin/>
+        },
+        {
+            id:2,
+            url:"https://github.com/OmarDiegoOblitas",
+            icon:<FaGithub />
+        },
+        {
+            id:3,
+            url:"https://www.facebook.com/omardiego.oblitas/",
+            icon:<FaFacebook />
+        },
+        {
+            id:4,
+            url:"https://twitter.com/OmarDiegoOblit1",
+            icon:<FaTwitter />
+        },
+        {
+            id:5,
+            url:"https://www.instagram.com/omardiegooblitas/",
+            icon: <FaInstagram />
+        },
+        {
+            id:6,
+            url:"https://dribbble.com/DiegoOmar",
+            icon:<FiDribbble />
+        }
+    ]
   return (
-    <div className="header_socials">
-        <a href="https://www.linkedin.com/in/omar-diego-oblitas-9380b71aa/" target="_blank" rel="noreferrer">
-            <BsLinkedin />
-        </a>
-        <a href="https://github.com/OmarDiegoOblitas" target="_blank" rel="noreferrer">
-            <FaGithub />
-        </a>
-        <a href="https://dribbble.com/DiegoOmar" target="_blank" rel="noreferrer">
-            <FiDribbble />
-        </a>
-        <a href="https://dribble.com" target="_blank" rel="noreferrer">
-            <FaFacebook />
-        </a>
-        <a href="https://twitter.com/OmarDiegoOblit1" target="_blank" rel="noreferrer">
-            <FaTwitter />
-        </a>
-        <a href="https://www.instagram.com/omardiegooblitas/" target="_blank" rel="noreferrer">
-            <FaInstagram />
-        </a>
-    </div>
+      <div className="header_socials">{social.map(({ id, url, icon }) => (
+          <a key={id} href={url} target="_blank" rel="noreferrer">
+              {icon}
+          </a>
+      ))}
+      </div>
   );
 };
 

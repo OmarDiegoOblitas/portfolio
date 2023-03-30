@@ -7,7 +7,7 @@ footer {
 }
 
 footer a {
-  color: var(--color-bg);
+  color: var(--color-bg-variant);
 }
 
 .footer_logo {
@@ -31,17 +31,18 @@ footer a {
   margin-bottom: 4rem;
 }
 
-.footer_socials a {
+.footer_socials > a{
   background: var(--color-bg);
   color: var(--color-white);
   padding: 0.8rem;
   border-radius: 0.7rem;
   display: flex;
   border: 1px solid transparent;
+  font-size: 24px;
 }
 
-.footer_socials:hover {
-  background: transparent;
+.footer_socials > a:hover {
+  background: var(--color-bg-variant);
   color: var(--color-bg);
   border-color: var(--color-bg);
 }
