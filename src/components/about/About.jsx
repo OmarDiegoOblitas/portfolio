@@ -31,14 +31,15 @@ const About = () => {
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
               <h5>Projects</h5>
-              <small>20+ completed</small>
+              <small>30+ completed</small>
             </article>
           </div>
           <p>
-            University final year student,Software developer with experience in
-            web applications. I want to be part of the world of work and learn
-            about the industry to generate functional projects that exceed
-            client expectations.
+            "Hello! I'm Omar, a final year student of Computer Engineering, focused on the Frontend Developer area.
+            I have solid knowledge in technologies such as React, Nextjs, Ionic, Tailwind, MySql, JavaScript, HTML and CSS.
+            I am skilled in the design and development of websites and applications,
+            and I stand out for my ability to work in a team and solve problems effectively.
+            If you are interested in learning more about my work, do not hesitate to contact me. I am at your disposal!"
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

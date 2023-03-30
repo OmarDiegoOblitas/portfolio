@@ -21,7 +21,20 @@
   border-radius: 1.5rem;
   overflow: hidden;
 }
+h3{
+  text-align: center;
+}
 
+.icon-tec{
+  display: flex;
+  gap: .8rem;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+.icon-tec > span{
+  font-size: 24px;
+}
 .portfolio_item h3 {
   margin: 1.2rem 0 2rem;
 }
@@ -30,6 +43,7 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+  justify-content: center;
 }
 
 /* ========== Media Queries tablet =========== */

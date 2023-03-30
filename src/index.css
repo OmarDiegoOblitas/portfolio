@@ -11,7 +11,8 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
+  /*1f1f38*/
+  --color-bg: #d9d9d9;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -127,7 +128,7 @@ img {
 /* ================== Media Queries smart phone ======================== */
 @media screen and (max-width: 600px) {
   .container {
-    width: var(--container-width-ms);
+    width: var(--container-width-sm);
   }
   section > h2 {
     margin-bottom: 2rem;

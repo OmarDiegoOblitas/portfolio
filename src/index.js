@@ -9,6 +9,7 @@ import Experience from "./components/experience/Experience";
 import Portfoilo from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Services from "./components/services/Services";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.render(
     <About />
     <Experience />
     <Portfoilo />
+    <Services/>
     <Contact />
     <Footer />
   </React.StrictMode>,

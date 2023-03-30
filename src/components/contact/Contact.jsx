@@ -32,7 +32,7 @@ const Contact = () => {
             <MdOutlineEmail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>omar.oblitas@gmail.com</h5>
-            <a href="omar79521audi@gmail.com" target="_blank">
+            <a href="mailto:omar79521audi@gmail.com" target="_blank" rel="noopener noreferrer">
               Send a Menssage
             </a>
           </article>
@@ -40,11 +40,9 @@ const Contact = () => {
             <RiMessengerLine className="contact_option-icon" />
             <h4>Messenger</h4>
             <h5>Omar Diego Oblitas</h5>
-            <a
-              href="https://m.me/omardiegooblitas"
+            <a href="https://m.me/omardiegooblitas"
               target="_blank"
-              rel="noreferrer"
-            >
+              rel="noreferrer">
               Send a Menssage
             </a>
           </article>
