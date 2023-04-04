@@ -5,7 +5,7 @@ import img2 from "../../assets/portfolio4.png";
 import img3 from "../../assets/m_merged.png";
 import img4 from "../../assets/socialJS.png";
 import img5 from "../../assets/portfolio1.png";
-import img6 from "../../assets/ApiA.png";
+import img6 from "../../assets/ApiA .png";
 import { SiTailwindcss,SiCss3,SiJavascript,SiAngular,SiNextdotjs,SiTypescript,SiSass }from"react-icons/si";
 import { FaVuejs,FaReact } from"react-icons/fa"
 

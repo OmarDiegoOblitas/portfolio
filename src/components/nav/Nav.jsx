@@ -41,11 +41,11 @@ const Nav = () => {
             <BiBook />
         </Link>
         <Link
-            to="services"
+            to="portfolio"
             smooth={true}
             duration={500}
-            onClick={() => setActiveNav("#services")}
-            className={activeNav === "#services" ? "active my-link" : "my-link"}
+            onClick={() => setActiveNav("#portfolio")}
+            className={activeNav === "#portfolio " ? "active my-link" : "my-link"}
         >
             <RiServiceLine />
         </Link>

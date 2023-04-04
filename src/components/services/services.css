@@ -52,6 +52,10 @@
   font-size: 0.9rem;
 }
 
+.services_list > button {
+  margin: 1.5rem auto .5rem auto;
+  display: flex;
+}
 /* ========== Media Queries tablet =========== */
 @media screen and (max-width: 1024px) {
   .services_container {

@@ -21,7 +21,7 @@ ReactDOM.createRoot(rootElement).render(
         <Portfolio/>
         <Services/>
         <Contact />
-        <Footer />gra
+        <Footer />
     </React.StrictMode>
 );
 
