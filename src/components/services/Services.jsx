@@ -12,7 +12,7 @@ function Services(){
 
 return (
     <section>
-        <h2>Cerfications</h2>
+        <h2>Certifications</h2>
         <div className="container services_container">
             <article className="service">
                 <div className="service_head">
