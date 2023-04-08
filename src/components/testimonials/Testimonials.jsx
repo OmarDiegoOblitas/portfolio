@@ -1,31 +1,34 @@
 import React from "react";
 import "./testimonials.css";
-import AVTR1 from "../../assets/profile1.jpg";
+import uab from "../../assets/uablogo.png";
+import iteca from "../../assets/itecalogo.png";
 
 const data = [
   {
-    avatar: AVTR1,
-    name: "tina Snow",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos fugit ratione delectus minus sed dolore eaque sequi voluptatem nulla, ullam eius rerum sapiente, tempora eum omnis doloribus? Et, facere illo.",
+    avatar: uab,
+    review: "Universidad Adventista de Bolivia",
   },
+    {
+        avatar: iteca,
+        review:"Instituto Tecnico de Educacion Comercial Americano",
+    },
 ];
 
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5>academic training</h5>
+      <h2 className="testimonial_title">Education</h2>
 
-      <div className="container testimonials_container">
+      <div className="container_testimonials_container">
         {data.map(({ avatar, name, review }, index) => {
           return (
             <article key={index} className="testimonial">
               <div className="client_avatar">
-                <img src={avatar} alt="avatar one" />
+                <img className="logoF" src={avatar} alt="avatar one" />
               </div>
-              <h5 className="client_name">{name}</h5>
-              <small className="client_review">{review}</small>
+              <h5 className="client_name">{review}</h5>
+
             </article>
           );
         })}

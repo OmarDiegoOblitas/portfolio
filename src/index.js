@@ -10,18 +10,20 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Services from "./components/services/Services";
+import Testimonials from "./components/testimonials/Testimonials";
 
 const rootElement = document.getElementById("root");
 ReactDOM.createRoot(rootElement).render(
     <React.StrictMode>
-        <Header />
-        <Nav />
-        <About />
-        <Experience />
-        <Portfolio/>
-        <Services/>
-        <Contact />
-        <Footer />
+            <Header />
+            <Nav />
+            <About />
+            <Experience />
+            <Portfolio/>
+            <Testimonials/>
+            <Services/>
+            <Contact />
+            <Footer />
     </React.StrictMode>
 );
 
