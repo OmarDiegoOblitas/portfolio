@@ -2,7 +2,6 @@ nav {
   background: rgba(0, 0, 0, 0.3);
   width: max-content;
   padding: 0.7rem 1.7rem;
-  display: block;
   z-index: 2;
   position: fixed;
   left: 50%;
@@ -14,20 +13,21 @@ nav {
   backdrop-filter: blur(15px);
 }
 
-nav .my-link {
+nav > .my-link {
   background: transparent;
   padding: 0.9rem;
   border-radius: 50%;
   display: flex;
   color: var(--color-light);
   font-size: 1.1rem;
+  cursor: pointer;
 }
 
-nav .my-link:hover {
+nav > .my-link:hover {
   background: rgba(0, 0, 0, 0.4);
 }
 
-nav .my-link.active {
+nav > .my-link.active {
   background: var(--color-primary);
   color: var(--color-bg);
 }

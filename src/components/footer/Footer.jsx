@@ -47,9 +47,7 @@ const Footer = () => {
               <li><a href="#testimonials">Testimonials</a></li>
               */}
           <div className="footer_socials">{social.map(({ id, url, icon }) => (
-              <a key={id} href={url} target="_blank" rel="noreferrer">
-                  {icon}
-              </a>
+              <a key={id} href={url} target="_blank" rel="noreferrer">{icon}</a>
           ))}
           </div>
           <div className="footer_copyright">

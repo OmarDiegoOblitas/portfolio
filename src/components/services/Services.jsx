@@ -7,7 +7,6 @@ import Linkedin from "./certifications/Linkedin"
 import Platzi from "./certifications/Platzi";
 import Coursera from "./certifications/Coursera";
 
-
 function Services(){
 
 return (

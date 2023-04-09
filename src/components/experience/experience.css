@@ -32,12 +32,17 @@
 
 .experience_details {
   display: flex;
+  flex-direction: column;
   gap: 1rem;
 }
 
 .experience_details-icon {
   margin-top: 6px;
   color: var(--color-primary);
+}
+.experience_tec{
+  display: flex;
+  gap: 1rem;
 }
 
 /* ========== Media Queries tablet =========== */

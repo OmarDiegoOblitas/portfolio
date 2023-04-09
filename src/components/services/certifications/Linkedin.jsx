@@ -90,9 +90,7 @@ import "../services.css"
  ]
 const Linkedin = () => {
     const [showAll, setShowAll] = useState(false);
-    const toggleShowAll = () => {
-        setShowAll(!showAll);
-    };
+    const toggleShowAll = () => {setShowAll(!showAll);};
     const certificationList = showAll ? certificationL : [certificationL[0]];
 
     return (

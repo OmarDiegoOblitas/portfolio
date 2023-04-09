@@ -25,7 +25,6 @@ const Contact = () => {
     <section id="contact">
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
-
       <div className="container contact_container">
         <div className="contact_options">
           <article className="contact_option">
@@ -33,7 +32,7 @@ const Contact = () => {
             <h4>Email</h4>
             <h5>omar.oblitas@gmail.com</h5>
             <a href="mailto:omar79521audi@gmail.com" target="_blank" rel="noopener noreferrer">
-              Send a Menssage
+              Send a Message
             </a>
           </article>
           <article className="contact_option">
@@ -43,7 +42,7 @@ const Contact = () => {
             <a href="https://m.me/omardiegooblitas"
               target="_blank"
               rel="noreferrer">
-              Send a Menssage
+              Send a Message
             </a>
           </article>
           <article className="contact_option">
@@ -55,7 +54,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Send a Menssage
+              Send a Message
             </a>
           </article>
         </div>

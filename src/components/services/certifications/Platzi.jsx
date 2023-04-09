@@ -116,9 +116,7 @@ const certificationP = [
 
 const Platzi = () => {
     const [showAll, setShowAll] = useState(false);
-    const toggleShowAll = () => {
-        setShowAll(!showAll);
-    };
+    const toggleShowAll = () => {setShowAll(!showAll);};
     const certificationList = showAll ? certificationP : [certificationP[0]];
 
     return (
@@ -126,7 +124,8 @@ const Platzi = () => {
             {!showAll && (
                 <ul className="services_list">
                     <div>
-                        <li><span className="service_list-icon"><BiCheck /></span>
+                        <li>
+                            <span className="service_list-icon"><BiCheck /></span>
                             <a href={certificationList[0].url}>{certificationList[0].name}</a>
                         </li>
                     </div>
@@ -137,7 +136,8 @@ const Platzi = () => {
                 <ul className="services_list">
                     {certificationList.map(({ id, check, name, url }) => (
                         <div key={id}>
-                            <li><span className="service_list-icon">{check}</span>
+                            <li>
+                                <span className="service_list-icon">{check}</span>
                                 <a href={url}>{name}</a>
                             </li>
                         </div>
@@ -148,7 +148,6 @@ const Platzi = () => {
         </div>
     );
 };
-
 
 
 export default Platzi;

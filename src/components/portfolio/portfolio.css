@@ -32,9 +32,11 @@ h3{
   justify-content: center;
   padding-bottom: 1rem;
 }
+
 .icon-tec > span{
   font-size: 24px;
 }
+
 .portfolio_item h3 {
   margin: 1.2rem 0 2rem;
 }

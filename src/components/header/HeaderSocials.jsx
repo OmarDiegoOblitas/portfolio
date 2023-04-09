@@ -41,9 +41,7 @@ const HeaderSocials = () => {
     ]
   return (
       <div className="header_socials">{social.map(({ id, url, icon }) => (
-          <a key={id} href={url} target="_blank" rel="noreferrer">
-              {icon}
-          </a>
+          <a key={id} href={url} target="_blank" rel="noreferrer">{icon}</a>
       ))}
       </div>
   );

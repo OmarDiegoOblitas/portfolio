@@ -38,10 +38,7 @@ const certificationC=[
 const Coursera = () => {
     const [showAll, setShowAll] = useState(false);
 
-    const toggleShowAll = () => {
-        setShowAll(!showAll);
-    };
-
+    const toggleShowAll = () => {setShowAll(!showAll);};
     const certificationList = showAll ? certificationC : [certificationC[0]];
 
     return (
@@ -50,16 +47,13 @@ const Coursera = () => {
                 <ul className="services_list">
                     <div>
                         <li>
-              <span className="service_list-icon">
-                <BiCheck />
-              </span>
+                            <span className="service_list-icon"><BiCheck /></span>
                             <a href={certificationC[0].url}>{certificationC[0].name}</a>
                         </li>
                     </div>
                     <button className="btn btn-primary" onClick={toggleShowAll}>View More +</button>
                 </ul>
             )}
-
             {showAll && (
                 <ul className="services_list">
                     {certificationList.map(({ id, check, name, url }) => (
