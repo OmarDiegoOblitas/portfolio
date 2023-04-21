@@ -101,8 +101,8 @@ const Portfolio = () => {
                 <span>{third}</span>
               </div>
               <div className="portfolio_item-cta">
-                <a href={github} className="btn">GitHub</a>
-                <a href={demo} className="btn btn-primary">Live Demo</a>
+                <a href={github} className="btn">View More</a>
+                <a href={demo} className="btn btn-primary">GitHub</a>
               </div>
             </article>
           );
