@@ -92,7 +92,7 @@ const certificationP = [
         id: 15,
         check: <BiCheck/>,
         url:"https://platzi.com/p/omar79521audi/curso/4623-arquitectura-frontend/diploma/detalle/",
-        name:"Audiocurso de Frameworks y Arquitecturas Frontend: Casos de Estudio"
+        name:"Frameworks y Arquitecturas Frontend: Casos de Estudio"
     },
     {
         id: 16,
@@ -138,6 +138,7 @@ const Platzi = () => {
                         <div key={id}>
                             <li>
                                 <span className="service_list-icon">{check}</span>
+                                <p>{id}</p>
                                 <a href={url}>{name}</a>
                             </li>
                         </div>

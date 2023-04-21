@@ -6,32 +6,44 @@ const certificationC=[
     {
         id:1,
         check: <BiCheck/>,
+        url:"https://coursera.org/share/d7b1009ecdb3db7421f52ad7b197af74",
+        name:"Advanced React"
+    },
+    {
+        id:2,
+        check: <BiCheck/>,
         url:"https://coursera.org/share/8227fc3baabf40c5d59634fedfff3d03",
         name:"React Basics"
     },
     {
-        id:2,
+        id:3,
         check: <BiCheck/>,
         url:"https://coursera.org/share/3b4b9dd220f7b9cf895bbadbccb051d2",
         name:"Version Control"
     },
     {
-        id:3,
+        id:4,
         check: <BiCheck/>,
         url:"https://coursera.org/share/26bf41143f614fc9ae089bba43b451cb",
         name:"Programming with JavaScript"
     },
     {
-        id:4,
+        id:5,
         check: <BiCheck/>,
         url:"https://coursera.org/share/0e941f0db67db9987438bc21491894f7",
         name:"HTML and CSS in depth"
     },
     {
-        id:5,
+        id:6,
         check: <BiCheck/>,
         url:"https://coursera.org/share/38f9e8063f9cb0c18714828b6302c73e",
         name:"Introduction to Front-End Development"
+    },
+    {
+        id:7,
+        check: <BiCheck/>,
+        url:"https://codigofacilito.com/usuarios/mis_certificados",
+        name:"Curso de TypeScript en Codigo Facilito"
     }
 ]
 
@@ -60,6 +72,7 @@ const Coursera = () => {
                         <div key={id}>
                             <li>
                                 <span className="service_list-icon">{check}</span>
+                                <p>{id}</p>
                                 <a href={url}>{name}</a>
                             </li>
                         </div>

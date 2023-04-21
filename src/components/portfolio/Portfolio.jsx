@@ -5,8 +5,9 @@ import img2 from "../../assets/portfolio4.png";
 import img3 from "../../assets/m_merged.png";
 import img4 from "../../assets/socialJS.png";
 import img5 from "../../assets/portfolio1.png";
-import img6 from "../../assets/ApiA .png";
-import { SiTailwindcss,SiCss3,SiJavascript,SiAngular,SiNextdotjs,SiTypescript,SiSass }from"react-icons/si";
+import img6 from "../../assets/ApiA.png";
+import img7 from "../../assets/ecomerceShop.png";
+import { SiTailwindcss,SiCss3,SiJavascript,SiAngular,SiNextdotjs,SiTypescript,SiSass,SiHtml5 }from"react-icons/si";
 import { FaVuejs,FaReact } from"react-icons/fa"
 
 const data = [
@@ -22,12 +23,13 @@ const data = [
   },
   {
     id: 2,
-    image: img2,
-    title: "website with statistics responsive with mobiles, dark mode.",
-    github: "https://omardiegooblitas.github.io/WebStatistics/",
+    image: img4,
+    title: "Customizable social network: adjust the color and text to your liking",
+    github: "https://omardiegooblitas.github.io/Social-media-/",
     demo: "https://dribbble.com",
-    first: <SiCss3/>,
-    second: <SiJavascript/>,
+    first:<SiCss3/>,
+    second:<SiJavascript/>,
+    third: <FaReact/>
   },
   {
     id: 3,
@@ -41,16 +43,6 @@ const data = [
   },
   {
     id: 4,
-    image: img4,
-    title: "Customizable social network: adjust the color and text to your liking",
-    github: "https://omardiegooblitas.github.io/Social-media-/",
-    demo: "https://dribbble.com",
-    first:<SiCss3/>,
-    second:<SiJavascript/>,
-    third: <FaReact/>
-  },
-  {
-    id: 5,
     image: img5,
     title: "musical lyrics search engine",
     github: "https://omardiegooblitas.github.io/ProbandoVue.js/",
@@ -58,6 +50,16 @@ const data = [
     first:<SiCss3/>,
     second:<SiJavascript/>,
     third: <FaVuejs/>
+  },
+  {
+    id: 5,
+    image: img7,
+    title: "E-commerce.",
+    github: "https://omardiegooblitas.github.io/tecnologiainternet/",
+    demo: "https://dribbble.com",
+    first:<SiCss3/>,
+    second:<SiJavascript/>,
+    third: <SiHtml5/>
   },
   {
     id: 6,
@@ -68,6 +70,15 @@ const data = [
     first:<SiSass/>,
     second:<SiTypescript/>,
     third: <SiAngular/>
+  },
+  {
+    id: 7,
+    image: img2,
+    title: "website with statistics responsive with mobiles, dark mode.",
+    github: "https://omardiegooblitas.github.io/WebStatistics/",
+    demo: "https://dribbble.com",
+    first: <SiCss3/>,
+    second: <SiJavascript/>,
   },
 ];
 
